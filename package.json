@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "13.2.6",
+  "description": "package.json",
+  "main": "package.json",
+  "scripts": {
+    "test": "package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "package.json"
+  },
+  "author": "",
+  "license": "ISC"
+}

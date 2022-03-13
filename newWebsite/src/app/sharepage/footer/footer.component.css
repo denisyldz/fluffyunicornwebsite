@@ -1,0 +1,40 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: rgb(232, 227, 104);
+    padding: 20px 20px;
+    
+    
+}
+
+h1 
+{
+    font-weight: bold;
+    color: rgb(135, 142, 237);;
+    font-size: 30px;
+}
+p
+{
+    color: rgb(135, 142, 237);
+    font-size: 20px;
+}
+a
+{
+    color:rgb(97, 12, 158);
+    text-decoration: none;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+a:hover
+{
+    color:rgb(56, 91, 232)
+}
+i
+{
+    
+    padding: 0px 5px ;
+    color:rgb(97, 12, 158)
+    
+}

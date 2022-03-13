@@ -1,0 +1,51 @@
+<div class="banner">
+    <div class="content">
+        <h1 class="mb-5">Welcome to my <br/> Website!</h1>
+        <a routerLink="menu">LOG IN <i class="bi bi-balloon-heart-fill"></i></a>
+    </div>   
+</div>
+<!--step-->
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">How to <span class="highlight">log in</span></h1>
+    <div class="row mt-5">
+        <!--one-->
+            <div class="col-lg-4 mt-2">
+                <div class="stepBox">
+                    <h1>1</h1>
+                    <p>select a nickname</p>
+                </div>
+            </div>
+        <!--two-->
+            <div class="col-lg-4 mt-2">
+                <div class="stepBox">
+                    <h1>2</h1>
+                    <p>enter your details</p>
+                </div>
+
+            </div>
+        <!--three-->
+            <div class="col-lg-4 mt-2">
+                <div class="stepBox">
+                    <h1>3</h1>
+                <p>final appearance</p>
+                </div>
+            </div>     
+    </div>
+</div>
+
+<!--characterbox-->
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Player's <span class="highlight">favourite characters </span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3"*ngFor="let cd of characterData;index as i">
+            <div class="characterbox" *ngIf="i<=3">
+                <img src="{{cd.characterImg}}" />
+                <h1>{{cd.characterName}}</h1>
+                <h1>{{cd.characterSkill}}</h1>
+                
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="viewmorebtn">view more<i class="bi bi-balloon-heart-fill"></i></a>
+</div>

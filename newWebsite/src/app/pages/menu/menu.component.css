@@ -1,0 +1,29 @@
+.characterbox
+{
+    padding: 10px 10px;
+}
+.characterbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.characterbox h1
+{
+    font-size: 18px;
+    margin-top : 20px; 
+    font-weight: bold;
+}
+
+.selectbtn
+{
+    
+    color: rgb(197, 66, 88);
+    background-color: rgb(155, 250, 233);
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer ;
+}

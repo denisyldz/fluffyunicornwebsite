@@ -1,0 +1,98 @@
+.banner
+{
+    
+    background-image: url(../../../assets/img/david-vilches-Uyzl5vIopCQ-unsplash.jpg);
+    height: 900px;
+    background-position: center top;
+    background-size: cover;
+}
+.content 
+{
+    top: 20%;
+    left: 4%;
+    
+    position: absolute;
+}
+.content h1
+{
+    color: rgb(233, 220, 220);
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+.content a{
+    text-decoration: none;
+    background-color: rgb(233, 220, 220);
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 20px;
+    
+}
+.content a:hover
+{
+    background-color: rgb(250, 153, 169);
+    color: blueviolet;
+}
+
+.stepBox
+{
+    background-color: rgb(149, 149, 235);
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.stepBox h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: floralwhite;
+}
+.stepBox p
+{
+    font-size: 20px;
+    font-style: italic;
+    color: floralwhite;
+}
+.highlight
+{
+    color:var(--primary-color);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.characterbox
+{
+    padding: 10px 5px;
+}
+.characterbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.characterbox h1
+{
+    font-size: 18px;
+    margin-top : 20px; 
+    font-weight: bold;
+}
+.viewmorebtn
+{
+    text-decoration: none;
+    background-color: rgb(223, 102, 122);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+@media screen and (max-width:600px)
+{
+    .banner
+{
+    height: 700px;
+}
+}

@@ -1,0 +1,16 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let cd of characterData"> 
+            <div class="characterbox mt-3 mb-3">
+                <img src="{{cd.characterImg}}">
+                <h1>{{cd.characterName}}</h1>
+                <p>Character level is : {{cd.characterLevel}}</p>
+                <p>{{cd.characterSkill}}</p>
+                <br/>
+                <a class="selectbtn" [routerLink]="['/menu',cd.id]">Select &nbsp;<i class="bi bi-suit-heart-fill"></i></a>
+            
+            </div>
+        </div>
+    </div>
+
+</div>
